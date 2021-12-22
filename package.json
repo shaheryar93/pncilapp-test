@@ -1,0 +1,20 @@
+{
+  "name": "pencil-test-assignment",
+  "version": "1.0.0",
+  "description": "\u0016The goal of this assignment is to store and create an index over question objects in MongoDB, and write a NodeJS + Express based server that exposes a RESTful API to query the index and return questions that match the query.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "index"
+  ],
+  "author": "shaheryar shakil",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.1",
+    "cors": "^2.8.5",
+    "express": "^4.17.2",
+    "mongoose": "^6.1.3"
+  }
+}
