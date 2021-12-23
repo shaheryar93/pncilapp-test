@@ -1,7 +1,7 @@
 
 'use strict'
 const express = require('express') ;
-const topicController = require('../Controllers/topic.controller');
+const topicController = require('../controllers/topic.controller');
 const router = express.Router();
 
 router.post('/add', topicController.addTopic);
