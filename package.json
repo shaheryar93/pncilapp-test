@@ -4,7 +4,7 @@
   "description": "\u0016The goal of this assignment is to store and create an index over question objects in MongoDB, and write a NodeJS + Express based server that exposes a RESTful API to query the index and return questions that match the query.",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js staging",
+    "start": "nodemon index.js staging",
     "test": "npm run dev"
   },
   "keywords": [
