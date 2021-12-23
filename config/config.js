@@ -6,8 +6,8 @@ let environmentVariaBles = {
         port: '27017',
         serverUrl: 'http://localhost:3001/',
         mongoDbName: 'QuestionsAndTopics',
-        localDBConnectionString: "mongodb://localhost:27017/QuestionsAndTopics",
-        liveConnectionString: "mongodb://localhost:27017/QuestionsAndTopics"
+        localDBConnectionString: "mongodb+srv://digisol:digisol@cluster0.oudlk.mongodb.net/QuestionsAndTopics",
+        liveConnectionString: "mongodb+srv://digisol:digisol@cluster0.oudlk.mongodb.net/QuestionsAndTopics"
     },
     staging: {
         runningPort: 3001,
@@ -16,8 +16,8 @@ let environmentVariaBles = {
         port: '27017',
         serverUrl: 'http://localhost:3001/',
         mongoDbName: 'QuestionsAndTopics',
-        localDBConnectionString: "mongodb://localhost:27017/QuestionsAndTopics",
-        liveConnectionString: "mongodb://localhost:27017/QuestionsAndTopics"
+        localDBConnectionString: "mongodb+srv://digisol:digisol@cluster0.oudlk.mongodb.net/QuestionsAndTopics",
+        liveConnectionString: "mongodb+srv://digisol:digisol@cluster0.oudlk.mongodb.net/QuestionsAndTopics"
     },
 };
 
