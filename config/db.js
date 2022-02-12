@@ -6,14 +6,14 @@ const mongoose = require('mongoose');  // mongoose package
 const config = require('./config.js');
 mongoose.Promise = global.Promise;
 
-mongoose.connect(config.localDB, { useNewUrlParser: true, useFindAndModify: false, useCreateIndex: true }, function (err) {
+mongoose.connect(process.env.localDBConnectionString, { useNewUrlParser: true, useFindAndModify: false, useCreateIndex: true }, function (err) {
     if (err) {
         console.log(err);
     }
 });
 
 mongoose.connection.on('error', function (err) {
-    console.log(`error while connecting ${config.dbName}`, err);
+    console.log(`error while connecting ${process.env.dbName}`, err);
 });
 
 mongoose.connection.on('connected', function (err, ref) {
